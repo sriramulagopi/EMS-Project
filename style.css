@@ -1,0 +1,84 @@
+.div1>button{
+    padding: 12px 20px;
+    background: greenyellow;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border:none;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+table{
+    width: 100%;
+}
+table,tr,td,th{
+    border: 2px solid black;
+    padding: 15px;
+    border-collapse:collapse ;
+}
+td{
+    font-size: 20px;
+    font-weight: 530;
+    text-align: center;
+}
+td:last-child{
+    display: flex;
+    border: none;
+    justify-content: space-around;
+}
+td:last-child>button{
+    padding: 10px 15px;
+}
+td:last-child>button:first-child{
+    background-color: red;
+    border: none;
+    color: white;
+}
+td:last-child>button:last-child{
+    background-color: green;
+    border: none;
+    color: white;
+}
+th{
+    font-size: 25px;
+}
+.div2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(140, 139, 139, 0.252);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+form{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:40px 140px;
+    position: relative;
+    gap: 20px;
+}
+form>input{
+    padding: 13px 40px;
+}
+form>button{
+    padding: 8px;
+}
+input::placeholder{
+    font-size: large;
+}
+.close{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
